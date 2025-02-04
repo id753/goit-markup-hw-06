@@ -1141,7 +1141,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   position: relative;
   padding-top: 72px;
   padding-bottom: 40px;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   height: 100%;
 }
@@ -1215,10 +1215,10 @@ text-decoration: none;
   color: #404bbf;
 }
 .mobile-menu-address-item {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 .mobile-menu-address-item:first-child {
-  margin-top: 168px;
+  /* margin-top: 168px; */
 }
 .mobile-team-soc-list-icon.team-soc-list-icon {
   justify-content: left;
